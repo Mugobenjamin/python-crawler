@@ -1,0 +1,18 @@
+start_url: "https://developers.google.com/search/docs"
+allowed_domains:
+  - "developers.google.com"
+  - "google.com"
+max_pages: 200
+max_depth: 3
+delay_seconds: 2.0
+concurrency: 1
+user_agent: "GoogleSearchCentralDocCrawler/1.0 (+https://github.com/Mugobenjamin/python-crawler)"
+output_dir: "./outputs"
+state_path: "./outputs/crawl_state.json"
+sqlite_path: "./outputs/seo_knowledge_base.db"
+jsonl_path: "./outputs/seo_content.jsonl"
+csv_path: "./outputs/seo_pages.csv"
+manifest_path: "./outputs/crawl_manifest.json"
+pdf_path: "./outputs/google_search_seo_handbook.pdf"
+dry_run: false
+resume: false

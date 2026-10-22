@@ -1,0 +1,16 @@
+# Google Search Central SEO Documentation Crawler and PDF Generator
+
+A modular Python 3.11+ project for crawling Google Search Central documentation, extracting structured SEO content, and generating a PDF handbook with traceable source references.
+
+[project]
+name = "google-search-seo-crawler"
+version = "0.1.0"
+description = "Crawl Google Search Central docs and generate an SEO handbook"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "requests>=2.32.0",
+  "PyYAML>=6.0.2",
+  "reportlab>=4.2.0",
+]
